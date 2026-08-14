@@ -11,4 +11,7 @@ import random
 
 #-----Main Routine------
 if(__name__ == "__main__"):
-    pass
+    contestant = input("Please enter your name")
+    answer = random.randint(1, 10)
+    guess = int(0)
+    count = 0
